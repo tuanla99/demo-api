@@ -1,3 +1,9 @@
+#### What?
+- create, update column and table with mysql:
+- input: `{"table":"abc","id":"abc", "column1":"abc"}`
+- output:
+  - create column, table if not exist and insert data to table or collumn
+  - insert data if not exist in table, else update data if exist in table
 #### How to run
 run: `php artisan serve`
 #### Test api
